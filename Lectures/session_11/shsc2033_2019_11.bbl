@@ -1,0 +1,50 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+{American Psychological Association}%
+}{%
+{American Psychological Association}%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+AmericanPsychologicalAssociation2010}
+\APACinsertmetastar {%
+AmericanPsychologicalAssociation2010}%
+\begin{APACrefauthors}%
+{American Psychological Association}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {{Publication manual of the American Psychological Association}}
+  {{Publication manual of the American Psychological Association}}\
+  (\PrintOrdinal{6th}\ \BEd).
+\newblock
+\APACaddressPublisher{Washington, DC}{American Psychological Association}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hart%
+}{%
+Hart%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Hart2017}
+\APACinsertmetastar {%
+Hart2017}%
+\begin{APACrefauthors}%
+Hart, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2017}.
+\newblock
+\APACrefbtitle {{English Exposed: Common Mistakes Made by Chinese Speakers}}
+  {{English Exposed: Common Mistakes Made by Chinese Speakers}}.
+\newblock
+\APACaddressPublisher{Hong Kong}{Hong Kong University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
