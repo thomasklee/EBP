@@ -1,0 +1,136 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Dollaghan%
+}{%
+Dollaghan%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Dollaghan2007a}
+\APACinsertmetastar {%
+Dollaghan2007a}%
+\begin{APACrefauthors}%
+Dollaghan, C\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle {{The handbook for evidence-based practice in communication
+  disorders}} {{The handbook for evidence-based practice in communication
+  disorders}}.
+\newblock
+\APACaddressPublisher{Baltimore, MD}{Paul H. Brookes Publishing Co.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guyatt%
+, Rennie%
+, Meade%
+\BCBL {}\ \BBA {} Cook%
+}{%
+Guyatt%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Guyatt2008d}
+\APACinsertmetastar {%
+Guyatt2008d}%
+\begin{APACrefauthors}%
+Guyatt, G.%
+, Rennie, D.%
+, Meade, M\BPBI O.%
+\BCBL {}\ \BBA {} Cook, D\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {{Users' guides to the medical literature: essentials of
+  evidence-based clinical practice}} {{Users' guides to the medical literature:
+  essentials of evidence-based clinical practice}}\ (\PrintOrdinal{2nd}\ \BEd).
+\newblock
+\APACaddressPublisher{New York}{McGraw Hill}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hargrove%
+, Griffer%
+\BCBL {}\ \BBA {} Lund%
+}{%
+Hargrove%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Hargrove2008}
+\APACinsertmetastar {%
+Hargrove2008}%
+\begin{APACrefauthors}%
+Hargrove, P.%
+, Griffer, M.%
+\BCBL {}\ \BBA {} Lund, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Procedures for using clinical practice guidelines.}}
+  {{Procedures for using clinical practice guidelines.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Language, Speech, and Hearing Services in
+  Schools}{39}{}{289--302}.
+\newblock
+\begin{APACrefDOI} \doi{10.1044/0161-1461(2008/028)} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Taylor-Goh%
+}{%
+Taylor-Goh%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+Taylor-Goh2005}
+\APACinsertmetastar {%
+Taylor-Goh2005}%
+\begin{APACrefauthors}%
+Taylor-Goh, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+\APACrefbtitle {{Royal College of Speech {\&} Language Therapists Clinical
+  Guidelines}.} {{Royal College of Speech {\&} Language Therapists Clinical
+  Guidelines}.}
+\newblock
+\begin{APACrefURL} \url{http://www.rcslt.org} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+VanDyke%
+}{%
+VanDyke%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+VanDyke2018}
+\APACinsertmetastar {%
+VanDyke2018}%
+\begin{APACrefauthors}%
+VanDyke, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Map-click your way to evidence based decisions}}
+  {{Map-click your way to evidence based decisions}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The ASHA Leader}{23}{1}{36--37}.
+\newblock
+\begin{APACrefDOI} \doi{10.1044/leader.MIW.23012018.36} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

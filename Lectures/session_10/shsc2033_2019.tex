@@ -1,0 +1,303 @@
+% EBP course: session 10
+% Thomas Klee
+% 10 April 2019
+
+% Hide last 4 slides when uploading PDF to Moodle. 
+% Lecture from a second PDF which slows those slides.
+
+% Preamble
+\documentclass{beamer}
+\usetheme{Singapore}
+\usefonttheme[onlysmall]{structurebold}
+\setbeamerfont{title}{shape=\itshape,family=\rmfamily}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % for math fonts, symbols and environments
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{ctable} % for command-driven tables
+\usepackage{wasysym}
+\usepackage[natbibapa]{apacite}
+\beamertemplatenavigationsymbolsempty % uncomment to add slide navigation symbols to each slide
+\setbeamertemplate{footline}[frame number]
+\usepackage{appendixnumberbeamer}  % to suppress page numbers on extra slides
+
+% activate following line for custom appearance
+% \usepackage{beamerthemesplit} 
+
+% information for title slide
+\title{Clinical Guidelines, Audits, \\ Implementation \& Barriers}
+\subtitle{}
+\author{Evidence-Based Practice in Speech-Language Therapy \\ (SHSC 2033)}
+\institute{Session 10}
+\date{Thomas Klee \& Elizabeth Barrett}
+\titlegraphic{\includegraphics[width=6cm]{images/logo_CE_C.jpg}} % HKU logo
+
+\begin{document}
+
+% create title slide with information above
+\begin{frame}
+	\titlepage
+\end{frame}
+
+% 
+\begin{frame}{Outline}
+	\begin{enumerate}
+	\item Clinical guidelines and evidence maps
+	\item Clinical audit	
+	\item Group discussion: implementing EBP and possible barriers
+	\end {enumerate}
+\end{frame}
+
+\section{Clinical Guidelines}
+
+%
+\begin{frame}
+\center{\Huge{\textcolor{darkgray}{Clinical Guidelines}}}
+\end{frame}
+
+% 
+\begin{frame}{Clinical practice guidelines}
+	\begin{quote}
+	``CPGs may contribute to solving the limited resources/time dilemma because they contain secondary research that enables practitioners to access literature easily and quickly that has already been identified, summarized, and critiqued." \footnote{\tiny{\citet[p. 290]{Hargrove2008}}}
+	\end{quote}
+\end{frame}
+
+% 
+\begin{frame}{Clinical practice guidelines}
+	\begin{quote}
+	``This \emph{prereviewed} literature allows SLPs to expend fewer resources and less time on the \emph{evidence} part of EBP. In addition, CPGs are likely to reduce error and bias\dots because CPGs are based on organized systematic literature selection and predetermined analysis strategies." \footnote{\tiny{\citet[p. 290]{Hargrove2008}}}
+	\end{quote}
+\end{frame}
+
+% 
+\begin{frame}{Three types of CPGs \footnote{\tiny{\citet[p. 290]{Hargrove2008}}}}
+	\begin{enumerate}
+	\item Traditional CPGs
+	\item Systematic reviews
+	\item Evidence-based CPGs
+	\end{enumerate}
+\end{frame}
+
+% 
+\begin{frame}{Evidence-based CPGs \footnote{\tiny{\citet[Table 1]{Hargrove2008}}}}
+	\begin{itemize}
+	\item Based on a comprehensive, methodical literature review
+	\item Based on a consensus of a panel of experts
+	\item Can include expert opinions
+	\item Identifies evidence that support recommendations
+	\item Evaluates the quality of the literature used to support recommendations
+	\item Expertise of the expert or group of experts is disclosed
+	\item Can include case studies, retrospective, nonrandomized research designs
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{CPGs}
+	\begin{itemize}
+	\item ``Although we were unable to identify a system of grading levels of evidence that included EBCPGs, one could infer that they generally would fall between TCPGs and SRs." \footnote{\tiny{\citet[p. 290]{Hargrove2008}}}
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{Examples of CPGs}
+	\begin{itemize}
+	\item Royal College of Speech and Language Therapists' document \citep{Taylor-Goh2005} summarising 12 clinical guidelines for children and adults \emph{``regarding clinical management that are based on the current evidence, where available " } \footnote{\tiny{Search for "clinical practice guidelines" at \url{{https://www.rcslt.org}}}}
+	\item SIGN's 2016 guidelines for ASD (\#145) \footnote{\tiny{https://www.sign.ac.uk/our-guidelines.html}}
+	\item Hargrove et al.'s (2008, Appendix A) for a list of CPGs relevant to children with communication disorders
+	\end{itemize}
+\end{frame}
+
+%
+\begin{frame}{Two cautions about CPGs}
+	\begin{itemize}
+	\item Note date of publication. Guidelines must be kept current if they are to have value.
+	\item Treat CPGs as you would any other piece of evidence: \alert{critically appraise them}.
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{Critical appraisal}
+	\begin{itemize}
+	\item Grading of Recommendations Assessment, Development and Evaluation (GRADE) \footnote{\tiny{\citet[pp. 281ff]{Guyatt2008d}}}
+	\item Guide to Evaluating Clinical Practice Guidelines \footnote{\tiny{\citet{Hargrove2008}}}
+		\begin{itemize}
+		\item[-] 19 item checklist and instructions
+		\item[-] Excellent inter-rater reliability (although small sample)
+		\item[-] Item 3e: \emph{``Were each of the recommendations of the CPG linked to evidence?"} (no instructions provided on this one)
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{ASHA's evidence maps}
+	\begin{itemize}
+	\item Summaries of clinical research related to assessment and intervention in communication disorders
+	\item See \url{http://on.asha.org/evidence-maps}
+	\item Also, see \url{http://www.asha.org/Research/EBP/EBSRs}
+	\item For a clinician's POV, see \citet{VanDyke2018}
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{Remember: \alert{Do not cherry pick!}}
+	\begin{itemize}
+	\item Choosing what you want to believe by ignoring some studies or not critically appraising them.
+	\item Example: Not having your child vaccinated because \emph{``MMR vaccine causes autism."} 
+	\item Searching for, and critically appraising the evidence, should help you avoid this pitfall. 
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{E$^3$BP}
+	\begin{quote}
+	``\dots the conscientious, explicit, and judicious integration of  best available\\
+		\begin{enumerate}
+		\item external evidence from systematic research,
+		\item evidence internal to clinical practice, and
+		\item evidence concerning the preferences of a fully informed patient." \footnote{\tiny{\citet[p. 2]{Dollaghan2007a}}}
+		\end{enumerate}
+	\end{quote}
+\end{frame}
+
+% 
+\begin{frame}{No one is an island.\footnote{\tiny{Paraphrase of John Donne (1624)}}}
+	\begin{itemize}
+	\item You now have a framework for EBP. 
+	% You've probably had more formal training in EBP than any other ST in Hong Kong!
+	\item What are the challenges to actually using it to inform your clinical decision making?
+	\item One challenge is that you won't be working in isolation. Other people will be involved.
+	\item You will be part of a \alert{team}.
+	\item You will also be part of a larger institutional structure.
+	\end{itemize}
+\end{frame}
+
+\section{Clinical Audit}
+
+%
+\begin{frame}
+\center{\Huge{\textcolor{darkgray}{Clinical Audit}}}
+\end{frame}
+
+% 
+\begin{frame}{Clinical audit \footnote{\tiny{\url{http://www.hra-decisiontools.org.uk/research/glossary.html}}}}
+	\begin{itemize}
+	\item ``\dots a quality improvement process that seeks to improve patient care and outcomes through systematic review of care against explicit criteria and the implementation of change.
+	\item Aspects of the structure, processes, and outcomes of care are selected and systematically evaluated against explicit criteria. 
+	\item Where indicated, changes are implemented at an individual, team, or service level and further monitoring is used to confirm improvement in healthcare delivery."
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{Clinical audit \footnote{\tiny{\url{http://www.uhbristol.nhs.uk/files/nhs-ubht/1\%20What\%20is\%20Clinical\%20Audit\%20v3.pdf}}}}
+	\begin{itemize}
+	\item A strategic management tool used as part of a broader quality improvement programme
+	\item A specific activity that measures clinical care against explicit audit criteria (standards) as part of a quality improvement cycle 
+	\item Necessary to know exactly what you do already and how that works, before you try to change it.
+	\item Asks the questions ``are we following best practice?" and ``what is happening to patients as a result?" 
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{Audit cycle \footnote{\tiny{\url{http://www.uhbristol.nhs.uk/files/nhs-ubht/1\%20What\%20is\%20Clinical\%20Audit\%20v3.pdf}}}}
+	\begin{enumerate}
+	\item Choose topic
+	\item Review standards of best practice (audit criteria)
+	\item Collect data of current practice
+	\item Compare data with standards
+	\item Feed back results
+	\item Discuss possible changes
+	\item Implement changes if needed
+	\end{enumerate}
+\end{frame}
+
+% 
+\begin{frame}{Evaluating clinical practice}
+	\begin{itemize}
+	\item EBP informs the setting of standards and the change in practice. Without linking the \alert{evidence base} to the \alert{clinical audit cycle}, we continue to practice based on our beliefs rather than on sound information.
+	\item What happens if an organisation has no audit cycle?
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{Questions to consider}
+	\begin{itemize}
+	\item How do you know if what \alert{you} do works? % Examine single-subject data; use CAPE
+	\item How do you monitor quality in \alert{your} clinical practice? % Clinical audit
+	\item How do you bring about a \alert{change} in practice?
+	\end{itemize}
+\end{frame}
+
+\section{Group Discussion}
+
+% 
+\begin{frame}{Group discussion: implementation \& barriers}
+	\begin{itemize}
+	\item Break up into your assigned groups.
+	\item Discuss
+		\begin{enumerate}
+		\item What are some of the skills you already have as a Speech Therapy student?
+		\item What barriers do you think you might encounter trying to implement EBP in your clinical work as a student?
+		\end{enumerate}
+	\item Make notes in order to communicate your findings at the end.
+	\end{itemize}
+\end{frame}
+
+% Hide the next 4 slides when uploading PDF to Moodle.
+% Reveal them after the group discussion.
+
+% 
+%\begin{frame}{Implementing EBP}
+%	What are some of the skills you already have as a Speech Therapy student?
+%\end{frame}
+
+% 
+%\begin{frame}{Implementing EBP}
+%	\begin{itemize}
+%	\item Some skills you already have
+%		\begin{itemize}
+%		\item[-] Academic knowledge
+%		\item[-] Clinical experience
+%		\item[-] Problem-solving skills
+%		\item[-] Strategies for finding high quality evidence
+%		\item[-] Some statistical knowledge
+%		\item[-] Critical appraisal skills
+%		\item[-] Communication skills
+%		\end{itemize}
+%	\item All involve \alert{life-long learning}.
+%	\end{itemize}
+%\end{frame}
+
+% 
+%\begin{frame}{Thinking proactively about barriers}
+%	What barriers have you encountered trying to implement EBP in your current clinical work?
+%\end{frame}
+
+% 
+%\begin{frame}{Barriers to implementation in the work place}
+%	\begin{enumerate}
+%	\item Complacency; inertia 
+%	\item Availability of evidence
+%	\item Knowledge-practice gap
+%	\item[]
+%	\item Tradition of trial-and-error problem-solving
+%	\item Can feel threatening to colleagues
+%	\item Professional autonomy 
+%	\item Lack of colleagues' support 
+%	\item[]
+%	\item Current work culture
+%	\item Management inertia and poor leadership
+%	\item The cost of change
+%	\end{enumerate}
+%\end{frame}
+
+\begin{frame}[allowframebreaks] %[shrink=15] % to reduce font size of references
+	\begin{center}
+	\frametitle{References}
+	\bibliographystyle{apacite}
+	\small\bibliography{/Users/thomasklee/Documents/Bibtex/library}
+	\end{center}
+\end{frame}
+
+\end{document}%%
