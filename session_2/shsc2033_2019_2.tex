@@ -1,0 +1,385 @@
+% EBP course, session 2
+% Thomas Klee
+% 23 Jan 2019
+
+% Preamble
+\documentclass{beamer}
+\usetheme{Singapore}
+\usefonttheme[onlysmall]{structurebold}
+\setbeamertemplate{footline}[frame number]
+\setbeamerfont{title}{shape=\itshape,family=\rmfamily}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % for math fonts, symbols and environments
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{ctable} % for command-driven tables
+\usepackage{wasysym} 
+\usepackage[natbibapa]{apacite}
+
+% activate following line for custom appearance
+% \usepackage{beamerthemesplit} 
+
+\mode<presentation>
+
+% information for title slide
+\title{Research \& Interpreting Study Findings}
+\subtitle{}
+\author{Evidence-Based Practice in Speech-Language Therapy \\ (SHSC 2033)}
+\institute{Session 2}
+\date{Thomas Klee \& Elizabeth Barrett}
+\titlegraphic{\includegraphics[width=6cm]{images/logo_CE_C.jpg}} % HKU logo
+
+\begin{document}
+
+% create title slide with information above
+\begin{frame}
+	\titlepage
+\end{frame}
+
+% 
+\begin{frame}{Outline}
+	\begin{enumerate}
+	\item The structure of research papers
+	\item How research gets published
+	\item Interpreting study findings
+	\item Group discussion
+	\end {enumerate}
+\end{frame}
+
+\section*{Structure of Research Papers}
+
+%
+\begin{frame}
+\center{\Huge{\textcolor{darkgray}{Structure of Research Papers}}}
+\end{frame}
+
+% 
+\begin{frame}{Structure of research papers}
+	\begin{enumerate}
+	\item {Title, authors, institutions}
+	\item Abstract (or Structured Abstract)
+	\item Introduction
+		\begin {itemize}
+		\item[-] Statement of the problem
+		\item[-] Literature review
+		\item[-] Research questions; hypotheses
+		\end{itemize}
+	\item Method
+		\begin{itemize}
+		\item[-] Participants
+		\item[-] Procedures
+		\item[-] Data analysis
+		\end{itemize}
+	\item Results (e.g. summary statistics; statistical models)
+	\item Discussion
+	\item References
+	\end{enumerate}
+\end{frame} 
+
+% 
+\begin{frame}{APA standards}
+	\begin{columns}[T]
+		\begin{column}{.5\textwidth}
+			\begin{block}{APA Manual} 
+			\includegraphics[width=4cm, height=5.72cm]{images/APAmanual.png}
+			\end{block}
+		\end{column}
+		
+		\begin{column}{.5\textwidth}
+			\begin{block}{JARS} 
+			\includegraphics[width=4cm, height=5.72cm]{images/APArep_res.png}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+% 
+\begin{frame}{APA style: good online resources}
+\alert{First stop for information} \url{https://owl.english.purdue.edu/owl/resource/560/01/} 
+
+\vspace{3mm}
+
+\alert{FAQs about APA style} \url{http://www.apastyle.org/learn/faqs/index.aspx}
+\end{frame}
+
+\section*{How Research Gets Published}
+
+%
+\begin{frame}
+\center{\Huge{\textcolor{darkgray}{How Research Gets Published}}}
+\end{frame}
+
+% 
+\begin{frame}{How research gets published}
+	\begin{itemize}
+	\item Studies are usually published in research journals.
+	\item They can also be published online, in a book or elsewhere.
+	\item Research journals usually have a rigorous \textbf{peer-review process}:
+		\begin{enumerate}
+		\item Author submits manuscript to journal.
+		\item Editor sends it out for peer review.
+		\item Reviewers critique it and recommend accepting, rejecting or revising it.
+		\item Editor makes final decision and informs author.
+		\item If the decision was to revise, 1--4 are repeated.
+		\end{enumerate}
+	\item Some journals have higher standards than others. Some are predatory are should be avoided. More and more are \textbf{open access}.
+	\end{itemize}
+\end{frame} 
+
+\section*{Interpreting Study Findings}
+
+%
+\begin{frame}
+\center{\Huge{\textcolor{darkgray}{Interpreting Study Findings}}}
+\end{frame}
+
+% 
+\begin{frame}{Alternative definition of EBP}
+	\begin{quote}
+	``\dots the use of mathematical estimates of the risk of benefit and harm, derived from high-quality research on population samples, to inform clinical decision making in the diagnosis, investigation or management of individual patients." \citep[p. 1]{Greenhalgh2010}
+	\end{quote}
+\end{frame}
+
+% 
+\begin{frame}{Interpreting study findings}
+Important questions to ask (as a reader) or address (as a writer):
+	\begin{enumerate}
+	\item Was the study finding statistically significant?
+	\item If not, was the study's statistical power adequate?
+	\item Is the finding important?
+	\item How precise is the finding?
+	\end{enumerate} 
+The last two points are much more important than the first two.
+\vspace{3mm}
+
+All four points are addressed on CATE, items 11--14.\footnote{\tiny{\citep[p. 67]{Dollaghan2007}}}  
+
+\vspace{3mm}
+
+\normalsize{In next week's group discussion, you'll critically appraise a research paper using CATE.}
+\end{frame} 
+
+% 
+\begin{frame}{Statistical power}
+	\begin{itemize}
+	\item \textbf{Power} estimates the probability of detecting a statistically significant difference in the \alert{sample} \emph{if one exists in the \alert{population}}.
+	\item Power should be calculated at the planning stage---\alert{before} any data are collected. Studies not adequately powered are rarely worth doing. 
+	\item Ranges from 0 to 1.00
+	\item Should be at least .80 \emph{`in order to interpret findings that are not statistically significant with reasonable confidence'} \footnote{\tiny{\citet[p. 38]{Dollaghan2007}}} 
+	\item Check Methods and Results sections to see if power is reported (CATE item 12).
+	\end{itemize}
+\end{frame}
+
+%
+\begin{frame}{p-values}
+\begin{quote}
+``You should not forget that \emph{p} actually stands for the conditional probability: \\
+\vspace{2mm}
+\emph{p}(Data + $| H_0$ and all other assumptions), \\
+\vspace{2mm}
+which represents the likelihood of a result, or outcomes even more extreme (Data +), assuming
+	\begin{enumerate}
+	\item the null hypothesis is exactly true;
+	\item the sampling method is random sampling;
+	\item all distributional requirements, such as normality and homoscedasticity, are met;
+	\item the scores are independent;
+	\item the scores are also perfectly reliable; and
+	\item there is no source of error besides sampling or measurement error.'' \citep[p. 74]{Kline2013}
+	\end{enumerate} 
+\end{quote}
+\end{frame}
+
+% 
+\begin{frame}{Statistical significance}
+	\begin{itemize}
+	\item H$_0$ is the hypothesis being evaluated with the statistical test:	
+		\begin{itemize}
+		\item[-] that there is no difference between the intervention and control groups
+		\end{itemize}
+	\item $\alpha < .05$ is a typical criterion specified for deciding whether to reject H$_0$.
+	\item If $p < .05$, then we reject H$_0$.
+		\begin{itemize}
+		\item[-] This suggests that there is reason to doubt that the true effect is zero.\footnote{\tiny{Wording suggested by \citet [p. 4]{Spence2018}.}}
+		\end{itemize} 
+	\item Notice this doesn't tell us anything about the \alert{size of the difference} between groups or whether the difference is \alert{(clinically) important}.
+	\end{itemize}
+\end{frame}
+
+%
+\begin{frame}{What do small p-values actually mean?}
+\begin{quote}
+``Statistical significance indicates that a smallnumber of other hypothetical results (typically less than 5\%from a very large number of hypothetical results) would beas extreme or more extreme than what was observed in thecurrent study, when it is assumed that the null hypothesis istrue.'' \citep[p. 3]{Spence2018}
+\end{quote}
+\end{frame}
+
+%
+\begin{frame}{Why do this?}
+\begin{quote}
+``The short hand interpretation we provide (i.e., interpretingstatistical significance as “may not be zero,”) can be viewedas a safety feature that may reduce science communicationaccidents when significance testing is used when communicatingwith the general public. Our short-hand interpretation alsohas a clear advantage of making it readily apparent howuninformative significance testing is on its own.'' \citep[p. 4]{Spence2018}
+\end{quote}
+\end{frame}
+
+% 
+\begin{frame}{Summary and cautions}
+\begin{itemize}
+	\item When a research finding is \textbf{statistically significant} (e.g., $p < .05$), it means that the true effect \emph{may not be zero}.\footnote{\tiny{Wording suggested by \citet{Spence2018}.}}
+	\item Be careful to not over-interpret this. Even though researchers and statisticians frequently say so, it does not mean that was finding
+		\begin{itemize} 
+			\item was unlikely to have happened by chance, or
+			\item had a small probability (e.g. $<5\%$) of occurring if the null hypothesis was true.
+		\end{itemize}
+	\item CATE item 11
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{Statistical significance}
+There may be several reasons why a finding wasn't statistically significant:
+	\begin{itemize}
+	\item The intervention wasn't effective.
+	\item Measurement error was high, possibly masking any true effect. Were the measures employed valid and reliable?
+	\item The sample size was too small to detect a difference of that magnitude.
+	\end{itemize}
+\end{frame}
+
+%
+\begin{frame} {A shift from using p-values\\ recommended by many, including the APA}
+	\begin{quote}
+		``It is past time for p-values to be retired. They do not do what is claimed, there
+are better alternatives, and their use has led to a pandemic of over-certainty\ldots there is no justification for p-values.'' \citep[p. 22]{Briggs2019}
+	\end{quote}
+\end{frame}
+
+% 
+\begin{frame}{Effect size}
+	\begin{itemize}
+	\item An alternative to p-values is to report an \textbf{effect size} and its \textbf{confidence interval}.
+	\item A statistically significant finding (e.g. $p < .05$) doesn't tell us anything about how large the effect was (e.g., difference between groups; correlation).
+	\item Just because a finding is statistically significant doesn't mean it's important; it just means that the true effect is not likely to be zero.
+	\item Effect size measures can be calculated to help determine the importance of the research finding.
+	\item CATE item 13
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{Effect size}
+	\begin{itemize}
+	\item A measure that estimates the \alert{average size} of the treatment effect across individuals (other kinds of ESs also exist) 
+	\item A measure of the \alert{average difference} between intervention and control groups that occurred in a trial
+	\item Unstandardized vs standardized ESs
+	\item To calculate ESs, see \url{http://www.polyu.edu.hk/mm/effectsizefaqs/calculator/calculator.html}
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{Interpreting standardised ES measures \footnote{\tiny{Cohen's conventions \citep{Ellis2010}}}}
+	\begin{enumerate}  
+	\item Comparison of independent means ($d$, $\Delta$, Hedges' $g$)
+		\begin{itemize}
+		\item[-] Small $.20$
+		\item[-] Medium $.50$
+		\item[-] Large $.80$
+		\end{itemize}
+	\item Correlation ($r$)
+		\begin{itemize}
+		\item[-] Small $.10$
+		\item[-] Medium $.30$
+		\item[-] Large $.50$
+		\end{itemize}
+	\item Multiple regression ($R^2$)
+		\begin{itemize}
+		\item[-] Small $.02$
+		\item[-] Medium $.13$
+		\item[-] Large $.26$
+		\end{itemize}	
+	\item ANOVA ($\eta^2$)
+		\begin{itemize}
+		\item[-] Small $.01$
+		\item[-] Medium $.06$
+		\item[-] Large $.14$
+		\end{itemize}	
+	\end{enumerate}
+\end{frame}
+
+% 
+\begin{frame}{Example of an ES}
+	\begin{enumerate}
+	\item Research question: Does focussed stimulation improve the expressive vocabulary of late talkers? 
+	\item Summary statistics \footnote{\tiny{\citet{Girolametto1996}}}
+		\begin{itemize}
+		\item Outcome measure: NDW at post-test 
+		\item Intervention group ($n = 12$): $M_1 = 64.5; SD = 46.0$
+		\item Control group ($n = 13$): $M_2 = 25.2; SD = 22.0$
+		\end{itemize}
+	\item Effect size (Glass's $\Delta$ used in this case)
+		\begin{itemize}
+		\item $\Delta = (M_1 - M_2) / SD_{control}$
+		\item $\Delta = (64.5 - 25.2) / 22.0$
+		= $39.3 / 22.0 = 1.79$ 
+		\end{itemize}
+	\item \alert{On average,} the vocabulary size (NDW) of those receiving intervention increased by almost 2 SDs compared to those who didn't receive intervention.
+	\end{enumerate}
+\end{frame}
+
+% 
+\begin{frame}{Interpreting ES}
+	\begin{itemize}
+	\item The larger the ES, the greater the impact of the intervention on the behaviour being measured (provided the dependent variable is meaningful).
+	\item If the ES of a new intervention exceeds that of the current intervention, it may be worth considering using the newer intervention (all else being equal). 
+	\item The ES (e.g. $d$) indicates the \alert{average} amount of gain that can be expected from the intervention. The actual amount will vary from individual to individual.
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{Other important considerations}
+A study's importance should also be judged by looking at its \textbf{practical significance}. \\
+	\begin{itemize}
+	\item Intervention \textbf{efficacy} vs intervention \textbf{effectiveness}
+		\begin{itemize}
+		\item[-] Effectiveness studies sometimes called \textbf{pragmatic trials}
+		\end{itemize}
+	\item \textbf{Social validity} of the intervention
+	\item \textbf{Maintenance} of the intervention (short- vs long-term effects)
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{Precision of the findings}
+	\begin{itemize}
+	\item An ES is calculated from \alert{sample} data. It's a \textbf{point estimate} --- an estimate of the ES of the \alert{population}.
+	\item If a second sample were measured, the ES calculated would be different.
+	\item If you measured a large number of samples under identical conditions, you could calculate the range within which 95\% of them would fall. 	
+	\item This is called the \textbf{95\% confidence interval} (95\% CI).
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{Precision}
+	\begin{itemize}
+	\item The 95\% CI allows you to estimate an intervention's ES in the population.
+	\item If the 95\% CI excludes zero, then you know the intervention had an effect (i.e., it was effective).
+%	\item The ES in the population has a 95\% chance of falling somewhere within the CI. #not really
+	\item CATE item 14
+	\end{itemize}
+\end{frame}
+
+% 
+\begin{frame}{Group discussion}
+	\begin{itemize}
+	\item Break up into your assigned groups.
+	\item Discuss items on the Study Evaluation form on Moodle for the research article you read.
+	\item After that, we'll discuss some of the questions you posted on Moodle.
+	\end{itemize}
+\end{frame}
+
+%
+%\begin{frame} % when compiling references for first time, run this line with latex and bibtex, and comment out next line
+\begin{frame}[shrink=15] % then comment out previous line but not this line and run latex twice more to reduce font size of references
+	\frametitle{References}
+	\bibliographystyle{apacite}
+	\small\bibliography{/Users/thomasklee/Documents/Bibtex/library}
+\end{frame}
+
+\end{document}
