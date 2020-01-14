@@ -1,0 +1,54 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Dollaghan%
+}{%
+Dollaghan%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Dollaghan2007}
+\APACinsertmetastar {%
+Dollaghan2007}%
+\begin{APACrefauthors}%
+Dollaghan, C\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Appraising diagnostic evidence}} {{Appraising
+  diagnostic evidence}}.{\BBCQ}
+\newblock
+\BIn{} C\BPBI A.~Dollaghan\ (\BED), \APACrefbtitle {The handbook for
+  evidence-based practice in communication disorders} {The handbook for
+  evidence-based practice in communication disorders}\ (\BPGS\ 81--104).
+\newblock
+\APACaddressPublisher{Baltimore, MD}{Paul H. Brookes}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Greenhalgh%
+}{%
+Greenhalgh%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Greenhalgh2010}
+\APACinsertmetastar {%
+Greenhalgh2010}%
+\begin{APACrefauthors}%
+Greenhalgh, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {{How to read a paper: the basics of evidence-based medicine}}
+  {{How to read a paper: the basics of evidence-based medicine}}\
+  (\PrintOrdinal{4th}\ \BEd).
+\newblock
+\APACaddressPublisher{Chichester}{Wiley-Blackwell BMJ Books}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
