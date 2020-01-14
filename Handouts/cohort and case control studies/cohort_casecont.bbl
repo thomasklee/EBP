@@ -1,0 +1,139 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Ajetunmobi%
+}{%
+Ajetunmobi%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+Ajetunmobi2002}
+\APACinsertmetastar {%
+Ajetunmobi2002}%
+\begin{APACrefauthors}%
+Ajetunmobi, O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2002}.
+\newblock
+\APACrefbtitle {{Making sense of critical appraisal}} {{Making sense of
+  critical appraisal}}.
+\newblock
+\APACaddressPublisher{London}{Hodder Arnold}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bland%
+}{%
+Bland%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+Bland2000}
+\APACinsertmetastar {%
+Bland2000}%
+\begin{APACrefauthors}%
+Bland, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2000}.
+\newblock
+\APACrefbtitle {{An introduction to medical statistics}} {{An introduction to
+  medical statistics}}\ (\PrintOrdinal{3rd}\ \BEd).
+\newblock
+\APACaddressPublisher{Oxford}{Oxford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Doll%
+\ \BBA {} Hill%
+}{%
+Doll%
+\ \BBA {} Hill%
+}{%
+{\protect \APACyear {1956}}%
+}]{%
+Doll1956}
+\APACinsertmetastar {%
+Doll1956}%
+\begin{APACrefauthors}%
+Doll, R.%
+\BCBT {}\ \BBA {} Hill, A\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1956}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Lung cancer and other causes of death in relation to
+  smoking: a second report on the mortality of British doctors}} {{Lung cancer
+  and other causes of death in relation to smoking: a second report on the
+  mortality of British doctors}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{British Medical Journal}{2}{}{1071--81}.
+\newblock
+\begin{APACrefDOI} \doi{10.1136/bmj.2.5001.1071} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tomblin%
+, Smith%
+\BCBL {}\ \BBA {} Zhang%
+}{%
+Tomblin%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1997}}%
+}]{%
+Tomblin1997}
+\APACinsertmetastar {%
+Tomblin1997}%
+\begin{APACrefauthors}%
+Tomblin, J.%
+, Smith, E.%
+\BCBL {}\ \BBA {} Zhang, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Epidemiology of specific language impairment: prenatal
+  and perinatal risk factors}} {{Epidemiology of specific language impairment:
+  prenatal and perinatal risk factors}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Communication Disorders}{30}{}{325--344}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zubrick%
+, Taylor%
+, Rice%
+\BCBL {}\ \BBA {} Slegers%
+}{%
+Zubrick%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+Zubrick2007}
+\APACinsertmetastar {%
+Zubrick2007}%
+\begin{APACrefauthors}%
+Zubrick, S\BPBI R.%
+, Taylor, C\BPBI L.%
+, Rice, M\BPBI L.%
+\BCBL {}\ \BBA {} Slegers, D\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Late language emergence at 24 months: an
+  epidemiological study of prevalence, predictors, and covariates}} {{Late
+  language emergence at 24 months: an epidemiological study of prevalence,
+  predictors, and covariates}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Speech, Language, and Hearing
+  Research}{50}{}{1562--1592}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

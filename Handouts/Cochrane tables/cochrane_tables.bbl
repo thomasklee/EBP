@@ -1,0 +1,64 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Law%
+, Garrett%
+\BCBL {}\ \BBA {} Nye%
+}{%
+Law%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+Law2003b}
+\APACinsertmetastar {%
+Law2003b}%
+\begin{APACrefauthors}%
+Law, J.%
+, Garrett, Z.%
+\BCBL {}\ \BBA {} Nye, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Speech and language therapy interventions for children
+  with primary speech and language delay or disorder}} {{Speech and language
+  therapy interventions for children with primary speech and language delay or
+  disorder}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cochrane Database of Systematic Reviews}{}{3}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/14651858.CD004110} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Meinusch%
+\ \BBA {} Romonath%
+}{%
+Meinusch%
+\ \BBA {} Romonath%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+Meinusch2011}
+\APACinsertmetastar {%
+Meinusch2011}%
+\begin{APACrefauthors}%
+Meinusch, M.%
+\BCBT {}\ \BBA {} Romonath, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Early language intervention for children with cleft lip
+  and/or palate: A systematic review}} {{Early language intervention for
+  children with cleft lip and/or palate: A systematic review}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Evidence-Based Communication Assessment and
+  Intervention}{5}{}{197--215}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/17489539.2012.678093} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

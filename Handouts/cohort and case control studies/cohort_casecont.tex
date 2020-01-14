@@ -1,0 +1,113 @@
+% Handout: cohort and case-control studies
+% Author: Thomas Klee
+% 4 Feb 2017
+
+% Preamble --------------------------------------------------------
+
+\documentclass[a4paper]{article}
+\usepackage[]{fullpage}
+\usepackage[latin1]{inputenc}
+\usepackage{multicol}
+\usepackage[colorlinks = true, linkcolor = blue, urlcolor = blue, citecolor = black]{hyperref} 
+\usepackage[natbibapa]{apacite}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage{booktabs}
+\usepackage{caption}
+
+% Course title etc ---------------------------------------------------
+
+\title{Cohort and Case-Control Studies}
+\author{Thomas Klee  \\ University of Hong Kong}
+\date{Evidence-Based Practice in Speech-Language Therapy (SHSC 2033)}
+
+% Document ---------------------------------------------------------------
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\section*{Cohort study}
+\end{center}
+
+\subsection*{Study design} 
+\begin{itemize}
+\item[] Follows a group of people (a cohort) to examine how different events (or risks) affect them; outcomes of people in subgroups of the cohort are compared.
+\item[] Usually prospective, but can be retrospective (see \citealp[pp. 118--120]{Ajetunmobi2002}) 
+\item[] Longitudinal; observational (non-experimental)
+\end{itemize}
+
+\subsection*{Example}
+\begin{itemize}
+\item[] Smokers and non-smokers were followed over time to determine whether they differ in health outcomes (e.g. lung cancer) \citep{Doll1956}.
+\end{itemize}
+
+\subsection*{Outcome measure}
+\begin{itemize}
+\item[] \textsc{Relative risk} (RR) is ``a ratio comparing the probability of an outcome in those exposed with the probability of that outcome in those unexposed" \citep[p. 107]{Ajetunmobi2002}. See the table on the next page for how this equation is applied to a 2 x 2 outcome table.
+\end{itemize}
+
+$$RR = \frac{a / (a + b)}{c / (c + d)}$$ 
+
+\subsection*{Interpretation}
+\begin{itemize}
+\item[] $RR < 1$	Decreased risk
+\item[] $RR = 1$	No difference in risk
+\item[] $RR > 1$	Increased risk
+\item[] RR can be estimated directly in a cohort study.
+\end{itemize}
+
+\begin{center}
+\section*{Case-control study}
+\end{center}
+
+\subsection*{Study design} 
+\begin{itemize}
+\item[] Two groups (cases and controls) are examined for differences associated with case status.
+\item[] Usually retrospective, observational, non-experimental
+\end{itemize}
+
+\subsection*{Examples}
+\begin{itemize}
+\item[] Children with and with specific language impairment were compared on a variety of factors using a parent questionnaire \citep{Tomblin1997}.
+\item[] Late talkers and typically-developing toddlers were compared on a range of maternal, family and child variables \citep{Zubrick2007}.
+\end{itemize}
+
+\subsection*{Outcome measure}
+\begin{itemize}
+\item[] The \textsc{odds ratio} (OR) is defined as ``the ratio of the odds of an event occurring in the experimental group (\emph{cases}) compared with the odds of the same event in the \emph{control} group" \citep[pp. 117--8]{Ajetunmobi2002}. See the table below for how this equation relates to a 2 x 2 table.
+\item[] $$OR = \frac{a / b}{c/d} = \frac{a / c}{b / d} = \frac{ad}{bc}$$ 
+\end{itemize}
+
+\subsection*{Interpretation}
+\begin{itemize}
+\item[] $OR < 1$ suggests exposure reduces outcome
+\item[] $OR = 1$ suggests exposure has no effect
+\item[] $OR > 1$ suggests exposure increases outcome
+\item[] OR can be used to estimate relative risk in a case-control study \citep[p. 241]{Bland2000}.
+\end{itemize}
+
+\begin{center}
+\section*{2 x 2 outcome table}
+\end{center}
+
+\begin{center}
+\begin{tabular}{l c | c | c}
+\toprule
+& & Case & Control \\ 
+\hline
+Predictor & $+$ & a & b \\
+\hline
+Predictor & $-$ & c & d \\
+\bottomrule
+\end{tabular}
+
+\end{center}
+
+\bibliographystyle{apacite}
+\bibliography{/Users/thomasklee/Documents/Bibtex/library}
+
+\end{document}
