@@ -1,0 +1,534 @@
+% Author: Thomas Klee
+% Course syllabus, SHSC2033, year 2
+% Last revised: 2019-04-11
+
+% Preamble --------------------------------------------------------
+
+\documentclass[a4paper, 11pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{fullpage}
+\usepackage{graphicx}   
+\usepackage[left=1in, top=1in, right=1in, bottom=1in, headheight=3ex, headsep=3ex]{geometry}
+\usepackage[sc]{mathpazo} % Palatino font 
+\linespread{1.05} % Palatino needs more leading (space between lines)
+\usepackage[T1]{fontenc}
+\usepackage[export]{adjustbox}
+\usepackage{blindtext}
+\usepackage{setspace}
+\usepackage{multicol}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage[colorlinks = true, linkcolor = blue, urlcolor = blue, citecolor = black]{hyperref} 
+\usepackage[natbibapa]{apacite}
+\usepackage{lastpage}
+\usepackage{amsmath}
+\usepackage{layout} 
+\usepackage{scrextend} 
+\addtokomafont{labelinglabel}{\sffamily}
+%\usepackage[blocks]{authblk}
+%\usepackage[yyyymmdd]{datetime}
+%\renewcommand{\dateseparator}{--}
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+% Course title etc ---------------------------------------------------
+
+\title{Evidence-Based Practice in Speech-Language Therapy \\ (SHSC 2033)}
+\author{Course Syllabus}
+\date{2018--19}
+
+% Automatically date the class schedule -------------------------
+% Enter this year's start date at \SetDate[] command in later section.
+
+\usepackage[mmddyyyy]{datetime}
+\usepackage{advdate}
+%\newdateformat{syldate}{\twodigit{\THEDAY}/\twodigit{\THEMONTH}}
+%\newdateformat{syldate}{\twodigit{\THEMONTH}/\twodigit{\THEDAY}}
+\newdateformat{syldate}{{\monthname} {\THEDAY}}
+\newsavebox{\MONDAY}\savebox{\MONDAY}{Mon}% Mon
+
+\newcommand{\week}[1]{%
+%  \cleardate{mydate}% Clear date
+% \newdate{mydate}{\the\day}{\the\month}{\the\year}% Store date
+  \paragraph*{\kern-2ex\quad #1 --- \syldate{\today}}%--\AdvanceDate[4]\syldate{\today}}% Set heading  \quad #1
+
+% uncomment following line when a date range is needed for each week
+%  \paragraph*{\kern-2ex\quad #1, \syldate{\today}--\AdvanceDate[4]\syldate{\today}}% Set heading  \quad #1
+
+%  \setbox1=\hbox{\shortdayofweekname{\getdateday{mydate}}{\getdatemonth{mydate}}{\getdateyear{mydate}}}%
+  \ifdim\wd1=\wd\MONDAY
+    \AdvanceDate[7]
+  \else
+    \AdvanceDate[7]
+  \fi
+}
+
+% Create page header and footer -------------------------------------
+
+\lhead{\footnotesize Course Syllabus (SHSC 2033), 2018-19}
+\chead{}
+% \rhead{\footnotesize Revised \today} % not used since \today gets redefined for the class schedule
+\rhead{\footnotesize Revised 2019-04-11}
+
+\lfoot{}
+\cfoot{\small \thepage/\pageref*{LastPage}}
+\rfoot{}
+
+\usepackage{array, xcolor}
+\usepackage{color, hyperref}
+
+% Document ---------------------------------------------------------------
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{logo_CE_C.jpg}
+\end{center}
+
+\blankline
+
+% Course information in table -----------------------------------------
+
+\begin{center}
+\begin {tabular}{l l}
+\hline
+\\
+	\textsc{No. of credits} & 6 \\
+	\textsc{Pre-requisites} &  Introduction to Communication Disorders (SHSC 1033) \\
+		& Research Methods \& Statistics (SHSC 2032) \\
+	\textsc{Grading system} & Letter grades (A+ to F) with grade points \\
+	\\
+	\textsc{Class room} & TT Tsui Building, Room 403 (TT403) \\
+	\textsc{Class time} & Wednesdays, 9.30am--12.20pm \\
+	\textsc{Course website} & \url{https://moodle.hku.hk/login/index.php} (SHSC2033)  \\ 
+	\\
+	\textsc{Course coordinators} & Professor Thomas Klee (Meng Wah Complex, room 761) \\
+	\textsc{E-mail} &  \texttt{tomklee@hku.hk} \\
+ 		\\
+		& Dr Elizabeth Barrett (Meng Wah Complex, room 763) \\
+	& \texttt{barrett1@hku.hk} \\
+	\\
+	\textsc{Office hours} & We don't have regular office hours but we're happy \\
+	& to meet with you to discuss any aspect of the course. \\
+	& Please email one of us to make an appointment.  \\
+\\
+\hline
+\end{tabular}
+\end{center}
+
+% Headed sections -----------------------------------------------------
+
+\blankline
+
+\section*{Course description}
+
+Evidence-based practice (EBP) is, in part, the conscientious, explicit and judicious use of current best evidence in making decisions about the care of individual clients (Centre for Evidence-Based Medicine, Oxford). Having its origins in the fields of medicine and clinical epidemiology, EBP is a growing part of speech and language therapy. As Greenhalgh (2001) expressed in her book, \emph{How to Read a Paper}, we hope this course will `de-mystify the important but often inaccessible subject of evidence based practice' and develop your knowledge and skills in this area by introducing you to ways of judging the value of assessment procedures and intervention practices in speech and language sciences.
+
+This course will introduce you to the principles and methods of EBP. You will learn
+about the structure of research papers and how they get reviewed and published. You will develop knowledge of
+intervention research designs ranging from single-subject designs to randomised controlled trials. You will
+learn how to judge the value of intervention and assessment research evidence and clinical practice evidence in
+relation to your client's unique values and circumstances. 
+You will learn about how to monitor the extent to which standards of best practice are being implemented. 
+You will also develop skills in searching for and critically appraising research evidence and present a critical review of evidence related to a specific clinical area that interests  you.
+
+\section*{Course objectives}
+The course is designed to help to you formulate clinical questions and develop your ability to find, read and critically
+evaluate research related to assessing and treating people with speech, language and swallowing disorders. You will
+interact with other students in small group discussions and present findings related to a clinical question of interest
+to you.
+
+\section*{Course learning outcomes}
+\begin{description}
+\item{\emph{By the end of the course, you should be able to:}}
+	\begin{enumerate}
+	\item Identify and describe the components and structure of published research papers;
+	\item Understand how research papers are published, including the role of peer-review;
+	\item Formulate answerable clinical questions;
+	\item Search the literature for evidence-based research that addresses clinical questions using specialised bibliographic databases (e.g. PubMed, PsychINFO, The Cochrane Library);
+	\item Assess the methodological quality of the research by critically appraising the research evidence;
+	\item Synthesise the conclusions of evidence-based findings for use in your clinical practice;
+	\item Present a critical review of evidence relating to a specific area of clinical interest.
+	\end{enumerate} 
+
+\item{\emph{These outcomes will be achieved by:}}
+	\begin{itemize}
+	\item Engaging in interactive class lectures and small group discussions; 
+	\item Completing the required readings; 
+	\item Independent learning.
+	\end{itemize}
+\end{description}
+
+\section*{Course textbook and other assigned readings}
+The main textbook for the course is \cite{Dollaghan2007a}, a book that should be useful throughout your career. A good alternative that covers much of the same material, but from the perspective of evidence-based medicine, is \cite{Greenhalgh2010}. In addition to the textbook, a set of published articles will be assigned each week (see next section).
+
+\section*{Course teaching and learning activities; class attendance}
+
+The course consists of lectures and small group
+seminar discussions. Except for the readings in Week 1, \textbf{you are expected to read those listed as required papers 
+\emph{in advance} of each class}. In preparation for each week's seminar discussion, please upload a 150-250 word summary of each \emph{seminar reading} to Moodle before the start of class. The summaries should be written by you alone and may contain a mix of text and bullet points. You may be asked to verbally summarise one or more of the seminar readings in class. 
+
+The readings for the course are divided into several groups. Some of the required
+readings were selected to introduce you to key principles and methods of EBP (\emph{background readings}), while others will form the basis of your discussion
+groups. The \emph{advanced background readings} build on the material in the
+main textbook and, being optional, are there for you to pursue in your own time and
+may be helpful in preparing for the written assignments or for deepening your
+knowledge of EBP beyond the course.
+
+You are expected to attend all class sessions. Attendance and active participation are particularly important to the success of small group discussions, where your absence or lack of preparation and participation puts additional burden on students who attend and have done the readings. Points will be deducted from your final grade for failing to attend and participate in any session without prior notice. 
+
+A rough estimate of the amount of time most students should plan for in this course (excluding preparing for the written assignments) is:
+
+\begin{center}
+\begin{tabular}{l c}
+\textbf{Activities} & \textbf{Notional no. of hours} \\
+Interactive lectures & 18 \\
+Library-based practical session & 1.5 \\
+Discussion groups & 16.5\\
+Reading and self-study & 84--144 \\
+Total & 120--180 \\
+\end{tabular}
+\end{center}
+
+\section*{Course assessment}
+
+\begin{center}
+\begin{tabular}{l l}
+\textbf{Assessment} & \textbf{Percentage of course grade} \\
+Weekly written summaries & 10\% (Pass, if \emph{all} assignments submitted on time; otherwise, Fail)
+  \\
+Quizzes (4) & 20\% (5\% each)  \\
+Written assignment 1 & 15\% \\
+Written assignment 2 & 55\% \\
+\end{tabular}
+\end{center}
+
+\begin{labeling}{Assessments}
+\item[Written summaries] In preparation for each week's seminar discussion, please upload a 200--250 word summary of each required seminar reading to Moodle (Turnitin) \emph{and} the Moodle forum 24 hours before the start of each class (i.e., by 9.30 am Tuesday). These should be written by you alone and may contain a mix of text and bullet points. After the summary, write one question you have based on your reading of each seminar paper. The question could relate to the study design, the topic or any other area you found confusing. Please submit your summary with your name and UID listed within the body of the paper. After reading the each required seminar reading, please post: 
+\begin{itemize}
+	\item a 200-250 word summary of the reading, in your own words (do not cut-and-paste from the article, ever)
+	\item a question specific to the seminar reading or its relation to the concepts learned in the EBP lecture
+\end{itemize}
+
+After you submit your post to the forum, you will be able to view your classmates' posts. Your post will also be visible to your classmates and the course instructors. The posts from the forum may be used to facilitate class-wide discussion. 
+
+\item[Quizzes] These are designed to encourage you to review the material covered each week and test your accumulated knowledge of information from lectures and the text book. They can occur at any time and will not be announced in advance. Quizzes will be given at the beginning of class and you must be in your seat when class begins at 9.30 am to take them. No exceptions will be made and make-up quizzes will not be given.
+
+\item[Written assignments] These two assignments are linked to each other and should focus on a clinical question related either to intervention or assessment of individuals with a communication or swallowing disorder such as, \emph{``What is the evidence that intervention benefits the language development of late-talking children?''} or \emph{``What evidence is there that standardised language tests accurately identify children with language disorders?''} You can find examples of other clinical questions on Moodle under \emph{Resources}. You are encouraged to ask a clinical question of particular interest to you. Further information about the written assignments is presented below.
+
+\end{labeling}
+
+\begin{description}
+	\item [Written Assignment 1] should include:\footnote{You will be given written feedback on this assignment. From that, revise your PICO question and provide additional rationale if necessary and incorporate these into the second assignment.}
+	\begin{enumerate}
+	\item Your question in PICO format;
+	\item Why you are asking the question you're asking;
+	\item A brief summary of one research paper relevant to your question;
+	\item A brief summary of your critical appraisal of the paper;
+	\item Citations and references in APA format \citep{AmericanPsychologicalAssociation2010};
+	\item Completed critical appraisal form attached as an appendix (not counted in page limit);
+	\item Maximum of 2 pages, double-spaced, plus critical appraisal checklist and references. 
+	\item \textbf{Due Wednesday, 13 February 2019, 4pm.}
+	\end{enumerate} 
+
+	\item [Written Assignment 2] should include:
+	\begin{enumerate}
+	\item Your revised (if necessary) question in PICO format;
+	\item A revised (if necessary) rationale for why you're asking the question you're asking;
+	\item How you searched for evidence to answer your question, listing all search engines (e.g., PubMed, Cochrane Library) with 'hit' counts, key words and/or MeSH terms used;
+	\item How you decided which studies to include in your review and which to exclude;
+	\item A list of the included studies in your review, summarised in a table based on the Cochrane reporting framework. This table should include the following rows for each study you report: Author + Date, Methods, Participants, Interventions, Outcomes, Notes, Risk of Bias)\footnote{For examples of such a table, see the Appendix of \citet{Meinusch2011} or the \emph{Characteristics of Studies} section at \url{https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009383.pub2/references}.}; 
+	\item A critical appraisal of this evidence followed by your conclusion(s);
+	\item Suggestion(s) for future research which addresses your question;
+	\item Citations and references of included studies in APA format \citep{AmericanPsychologicalAssociation2010};
+	\item Maximum of 6 pages, double-spaced, plus Cochrane table and references.
+	\item \textbf{Due Friday, 26 April 2019, 4pm.}
+	\end{enumerate}
+
+\subsection*{Submitting written assignments}
+	\begin{itemize}
+	\item Written Assignment 1 should be submitted to Turnitin \emph on Moodle {and} a second copy uploaded to Moodle by 4pm on the date due. Please remember to upload your file in both places on Moodle.
+	\item Written Assignment 2 should be submitted to Turnitin \emph on Moodle by 4pm on the date due. Please also put a paper copy in the Assignment Box (MW 742) by the same deadline.
+	\item The date and time of your submission is recorded by Turnitin and Moodle upon submission and this will be used for determining whether the deadline was met. Points will be deducted if the assignment is not submitted to both platforms by the deadline.
+	\item Plan to submit in advance of the deadline in case you encounter any computer problems at the last minute. Give yourself plenty of time!
+	\item If you encounter a problem uploading your document, you can email it to Dr Barrett by the same deadline.
+	\item Penalties apply for late submissions as per Division policy (see Late Work section).
+	\item Upload your assignment in Word format, using the .docx filename extension. Do not use other file formats (eg .pdf, .odt, .pages).
+	\item Submit your assignment, including any appendices, \emph{as a single .docx file}.
+	\item Grading will be done blindly, so please do not put your name on the assignment. Instead, please put your student ID number \emph{on each page of the header or footer}.
+	\end{itemize}
+\end{description}
+
+\section*{Course grades}
+
+Your grade for the course will be determined on the basis of the assessments listed above in accordance with the grading system in the Undergraduate Handbook. See Regulation UG 8 at the link below.\footnote{\url{http://www.handbook.hku.hk/ug/full-time-2017-18/appendices/b-regulations-for-first-degree-curricula}}
+
+\section*{Academic dishonesty policy}
+
+Please familiarise yourself with the University policies on copyright and plagiarism in the Undergraduate Handbook.\footnote{\url{http://www.handbook.hku.hk/ug/full-time-2017-18/important-policies/copyright-and-plagiarism}}
+
+\section*{Disabilities policy}
+
+Students with disabilities or special educational needs should consult the Undergraduate Handbook for further information and contact CEDARS early in the semester.\footnote{\url{http://www.handbook.hku.hk/ug/full-time-2017-18/student-services/assistance-to-students-with-a-disability-or-special-educational-needs}}
+
+% Class schedule and reading assignments -------------------------------------------------
+
+%\newpage
+
+\section*{Class schedule and reading assignments} 
+
+\SetDate[09/01/2019] % change date here each year; enter date that is 1 week before first class (i.e., classes here start 16/01/2019)
+\week{Week 1} 
+\begin{itemize}
+\item Lecture (9.30-10.50am)
+	\begin{itemize}
+	\item Course introduction: what to expect and what's expected of you
+	\item What is evidence-based practice?
+	\item Asking clinical questions
+	\item Searching for the best evidence
+	\end{itemize}
+\item Practical session (with Kendy Lau, Education Librarian, 11am-12.20pm)
+	\begin{itemize}
+	\item Searching for evidence using on-line databases
+	\item Please bring your laptop or tablet, since you will need it for the practical session.
+	\end{itemize}
+\item Background reading (required)
+	\begin{itemize}
+	\item \citet[chapters 1--3]{Dollaghan2007a}
+	\end{itemize}
+\end{itemize}
+
+\week{Week 2} 
+\begin{itemize}
+\item Lecture
+	\begin{itemize}
+	\item The architecture of a research paper
+	\item How research gets published
+	\item Interpreting study findings
+	\end{itemize}
+\item Background reading (required)
+	\begin{itemize}
+	\item \citet[chapters 4--5]{Dollaghan2007a}
+	\end{itemize}
+\item Reading for seminar discussion (required)
+	\begin{itemize}
+	\item \citet{Jones2005}
+	\end{itemize}
+\item Optional background reading
+	\begin{itemize}
+	\item \citet{Hamilton2005a}
+	\item \citet{Hamilton2005b}
+	\item \citet{Johnson2006}
+	\end{itemize}
+\end{itemize}
+
+\week{Week 3} 
+\begin{itemize}
+\item Lecture: Evaluating intervention evidence
+	\begin{itemize}
+	\item Hierarchy of evidence
+	\item Randomised controlled trials (RCTs)
+	\item Reporting standards
+	\item Critically appraising evidence
+	\end{itemize}
+\item Background reading (required)
+	\begin{itemize}
+	\item \citet[chapter 6]{Dollaghan2007a}
+	\end{itemize}
+\item Reading for seminar discussion (required)
+	\begin{itemize}
+	\item Re-read \citet{Jones2005}
+	\item \citet{Ward2017} % a randomised design
+%	\item \citet{Beck2017} % a non-randomised design
+%	\item \citet{Mueller2014} % non-randomised (but check again)
+%	\item \citet{Bridgman2016}
+	\end{itemize}
+\item Advanced background reading (optional)
+	\begin{itemize}
+	\item \citet[pp. 59--65]{Haynes2006}
+	\item \citet[pp. 67--77]{Straus2011}
+	\item \citet[pp. 58--58, 122--145]{Ajetunmobi2002}
+	\item \citet{Glasziou2004}
+	\end{itemize}
+\end{itemize}
+
+\week{Week 4} No class (Chinese New Year)
+
+\week{Week 5} 
+\begin{itemize}
+\item Lecture: Systematic reviews and meta-analyses
+\item Background reading (required)
+	\begin{itemize}
+	\item \citet[chapter 8]{Dollaghan2007a}
+	\end{itemize}
+\item Reading for seminar discussion (required)
+	\begin{itemize}
+%	\item \citet{Fey2011}
+	\item \citet{Roberts2011}
+	\end{itemize}
+\item Advanced background reading (optional)
+	\begin{itemize}
+	\item \citet[pp. 15--48]{Haynes2006}
+	\item \citet{Schlosser2007}
+	\item \citet{Wilson2011}
+	\item \citet{HigginsGreen2008}
+	\item \citet{Borenstein2009}
+	\end{itemize}
+\end{itemize}
+
+\week{Week 6} 
+\begin{itemize}
+\item Lecture: Case-control studies and cohort studies
+\item Background reading (required)
+	\begin{itemize}
+	\item \citet[review pp. 33--35]{Dollaghan2007a}
+	\end{itemize}
+\item Reading for seminar discussion (required)
+	\begin{itemize}
+	\item \citet{Rudolph2016}
+%	\item \citet{Reilly2013}
+%	\item \citet{Yoshimasu2011}
+	\end{itemize}
+\item Advanced background reading (optional)
+	\begin{itemize}
+	\item \citet[pp. 100--121]{Ajetunmobi2002}
+	\end{itemize}
+\end{itemize}
+
+\week{Week 7} 
+\begin{itemize}
+\item Lecture: Case studies and single-subject experimental designs (part 1)
+\item Background reading (required)
+	\begin{itemize}
+	\item \citet{Vance2012}
+	\item \citet{Horner2005}
+	\item \citet{Byiers2012}
+	\end{itemize}
+\item Reading for seminar discussion (required)
+	\begin{itemize}
+	\item \citet{Harris2000}
+	\item \citet{Hewat2018}
+%	\item \citet{Behrman2017}
+	\end{itemize}
+\item Advanced background reading (optional)
+	\begin{itemize}
+	\item \citet{Parker2005}
+	\end{itemize}
+\end{itemize}
+
+\week{Week 8} No class (Reading week)
+
+\week{Week 9} 
+\begin{itemize}
+\item Lecture:  Single-subject experimental designs (part 2)
+\item Background reading (required)
+	\begin{itemize}
+	\item \citet{Tate2008}
+	\item \citet{Logan2008}
+	\end{itemize}
+\item Reading for seminar discussion (required)
+	\begin{itemize}
+	\item \citet{Rudolph2014}
+	\end{itemize}
+\item Advanced background reading (optional)
+	\begin{itemize}
+	\item \citet{Wilson2011}
+	\item \citet{Schlosser2008a}
+	\item \citet{Auerbach2014}
+	\item \citet{Gierut2015}
+	\end{itemize}
+\end{itemize}
+
+\week{Week 10} 
+\begin{itemize}
+\item Lecture: Diagnostic (classification) accuracy studies (part 1)
+\item Background reading (required)
+	\begin{itemize}
+	\item \citet[chapter 7]{Dollaghan2007a}
+	\item \citet{Klee2008a}
+	\end{itemize}
+\item Reading for seminar discussion (required)
+	\begin{itemize}
+	\item \citet{Laing2002}
+%	\item \citet{Smith2000}
+	\end{itemize}
+\item Advanced background reading (optional)
+	\begin{itemize}
+	\item \citet[pp. 69--84]{Ajetunmobi2002}
+	\item \citet[pp. 272--278]{Haynes2006}
+	\item \citet[pp. 137--167]{Straus2011}
+	\end{itemize}
+\end{itemize}
+
+\week{Week 11} 
+\begin{itemize}
+\item Lecture
+	\begin{itemize}
+	\item Diagnostic accuracy (part 2)
+	\item Practice-based evidence
+	\item Evidence from client preferences
+	\end{itemize}
+\item Background reading (required)
+	\begin{itemize}
+	\item \citet[chapters 9--10]{Dollaghan2007a}
+	\end{itemize}
+\item Reading for seminar discussion (required)
+	\begin{itemize}
+	\item \citet{Lemoncello2013}
+%	\item \citet{Green2008}
+	\item \citet{Ammerman2014}
+	\end{itemize}
+\end{itemize}
+
+\week{Week 12} 
+	\begin{itemize}
+	\item No class this week. Please spend this time working on Written Assignment 2.
+	\end{itemize}
+
+\week{Week 13} 
+\begin{itemize}
+\item Lecture: Clinical guidelines, audits, implementation \& barriers
+	\begin{itemize}
+	\item Evidence maps
+	\item Clinical guidelines
+	\item Clinical audit
+	\item Implementing EBP in clinical practice---and possible barriers
+	\end{itemize}
+\item Background reading (required)
+	\begin{itemize}
+	\item \citet{Schooling2017}
+	\item \citet{NHS_ChangePractice2007}
+	\item \citet{Hargrove2008}
+	\end{itemize}
+\item Reading for seminar discussion (required)
+	\begin{itemize}
+	\item \citet{Rosenbek2016}
+	\item \citet{Metcalfe2001}
+	\end{itemize}
+\end{itemize}
+
+\week{Week 14} 
+\begin{itemize}
+\item Lecture: Communicating your findings in writing
+	\begin{itemize}
+	\item Written Assignment 2
+	\item Course evaluation
+	\item Your questions \footnote{If you have questions about any aspect of what you've learned in this course, or questions about your written assignment, this is an opportunity for you to get some help. Questions must be asked in the group so that everyone can benefit from hearing them and hearing the answer. If you have a specific question, it's likely that others will have the same question.}
+	\end {itemize}
+\item Books that will be useful in your own writing (optional)
+	\begin{itemize}
+	\item \citet{Cooper2011}
+	\item \citet{Nicol2010}
+	\item \citet{Nicol2010a}
+	\end{itemize}
+\end{itemize}
+	
+% \week{Week 15} % although technically a teaching week in the university academic year, the BSc programme doesn't use it in order that both semester 1 and 2 each have 12 teaching weeks.
+	
+\newpage
+\bibliographystyle{apacite}
+\bibliography{/Users/thomasklee/Documents/Bibtex/library}
+
+\end{document}
