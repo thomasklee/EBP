@@ -1,0 +1,169 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Crystal%
+}{%
+Crystal%
+}{%
+{\protect \APACyear {1987}}%
+}]{%
+Crystal1987}
+\APACinsertmetastar {%
+Crystal1987}%
+\begin{APACrefauthors}%
+Crystal, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1987}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Meeting the need for case studies}} {{Meeting the need
+  for case studies}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Child Language Teaching and Therapy}{3}{}{305--310}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dollaghan%
+}{%
+Dollaghan%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Dollaghan2007a}
+\APACinsertmetastar {%
+Dollaghan2007a}%
+\begin{APACrefauthors}%
+Dollaghan, C\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle {{The handbook for evidence-based practice in communication
+  disorders}} {{The handbook for evidence-based practice in communication
+  disorders}}.
+\newblock
+\APACaddressPublisher{Baltimore, MD}{Paul H. Brookes Publishing Co.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Greenhalgh%
+}{%
+Greenhalgh%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Greenhalgh2010}
+\APACinsertmetastar {%
+Greenhalgh2010}%
+\begin{APACrefauthors}%
+Greenhalgh, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {{How to read a paper: the basics of evidence-based medicine}}
+  {{How to read a paper: the basics of evidence-based medicine}}\
+  (\PrintOrdinal{4th}\ \BEd).
+\newblock
+\APACaddressPublisher{Chichester}{Wiley-Blackwell BMJ Books}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guyatt%
+\ \protect \BOthers {.}}{%
+Guyatt%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+Guyatt2000}
+\APACinsertmetastar {%
+Guyatt2000}%
+\begin{APACrefauthors}%
+Guyatt, G.%
+, Haynes, R\BPBI B.%
+, Jaeschke, R\BPBI Z.%
+, Cook, D\BPBI J.%
+, Green, L.%
+, Naylor, C\BPBI D.%
+\BDBL {}{for the Evidence-Based Medicine Working Group}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Users' guides to the medical literature: XXV.
+  Evidence-based medicine: principles for applying the users' guides to patient
+  care}} {{Users' guides to the medical literature: XXV. Evidence-based
+  medicine: principles for applying the users' guides to patient care}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the American Medical
+  Association}{284}{}{1290--1296}.
+\newblock
+\begin{APACrefDOI} \doi{10.1001/jama.284.10.1290} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guyatt%
+, Rennie%
+, Meade%
+\BCBL {}\ \BBA {} Cook%
+}{%
+Guyatt%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Guyatt2008d}
+\APACinsertmetastar {%
+Guyatt2008d}%
+\begin{APACrefauthors}%
+Guyatt, G.%
+, Rennie, D.%
+, Meade, M\BPBI O.%
+\BCBL {}\ \BBA {} Cook, D\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {{Users' guides to the medical literature: essentials of
+  evidence-based clinical practice}} {{Users' guides to the medical literature:
+  essentials of evidence-based clinical practice}}\ (\PrintOrdinal{2nd}\ \BEd).
+\newblock
+\APACaddressPublisher{New York}{McGraw Hill}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tate%
+\ \protect \BOthers {.}}{%
+Tate%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Tate2008}
+\APACinsertmetastar {%
+Tate2008}%
+\begin{APACrefauthors}%
+Tate, R\BPBI L.%
+, McDonald, S.%
+, Perdices, M.%
+, Togher, L.%
+, Schultz, R.%
+\BCBL {}\ \BBA {} Savage, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Rating the methodological quality of single-subject
+  designs and n-of-1 trials: introducing the Single-Case Experimental Design
+  (SCED) Scale}} {{Rating the methodological quality of single-subject designs
+  and n-of-1 trials: introducing the Single-Case Experimental Design (SCED)
+  Scale}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Neuropsychological Rehabilitation}{18}{}{385--401}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
