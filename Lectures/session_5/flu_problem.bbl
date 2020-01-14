@@ -1,0 +1,28 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Stevenson%
+}{%
+Stevenson%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Stevenson2017}
+\APACinsertmetastar {%
+Stevenson2017}%
+\begin{APACrefauthors}%
+Stevenson, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {{epiR: tools for the analysis of epidemiological data (R
+  package version 0.9-93)}.} {{epiR: tools for the analysis of epidemiological
+  data (R package version 0.9-93)}.}
+\newblock
+\begin{APACrefURL} \url{https://cran.r-project.org/package=epiR}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

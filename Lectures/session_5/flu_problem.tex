@@ -1,0 +1,97 @@
+% EBP course: session 5
+% Problem for group discussion
+% Thomas Klee
+% 14 Feb 2018
+
+% Preamble
+\documentclass{beamer}
+\usetheme{Singapore}
+\usefonttheme[onlysmall]{structurebold}
+\setbeamerfont{title}{shape=\itshape,family=\rmfamily}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % for math fonts, symbols and environments
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{ctable} % for command-driven tables
+\usepackage{wasysym} 
+\hypersetup{colorlinks, allcolors = ., urlcolor = blue,} % to change color of URL from black to blue
+\usepackage[natbibapa]{apacite}
+\beamertemplatenavigationsymbolsempty % uncomment to add slide navigation symbols to each slide
+\usepackage{appendixnumberbeamer}  % to suppress page numbers on extra slides
+\setbeamertemplate{footline}[frame number] % to add slide numbers
+
+\renewcommand{\insertnavigation}[1]{} % to disable navigation header containing sections
+
+% activate following line for custom appearance
+% \usepackage{beamerthemesplit} 
+
+\mode<presentation>
+
+% information for title slide
+\title{Cohort and Case-Control Studies}
+\subtitle{}
+\author{Evidence-Based Practice in Speech-Language Therapy \\ (SHSC 2033)}
+\institute{Session 5 Exercise}
+\date{Thomas Klee \& Elizabeth Barrett}
+\titlegraphic{\includegraphics[width=6cm]{images/logo_CE_C.jpg}} % HKU logo
+
+\begin{document}
+
+% create title slide with information above
+\begin{frame}
+	\titlepage
+\end{frame}
+
+% 1
+\begin{frame}{Press Release\footnote{\tiny{HKU Daily Media Highlights, 2018-02-11}}}
+\textbf{Medical experts refute singers' claims of flu vaccine risks}
+\\
+\vspace{3mm}
+\footnotesize{``Cantopop singers have recently made warnings against flu vaccines. In a leaked WhatsApp audio recording, Ms Kay Tse On-kei said flu vaccines contained mutated bacteria and mercury. [Her] claims were rejected by HKU microbiologist Professor Yuen Kwok-Yung. Dr Ho Pak Leung, Director of the HKU Centre for Infection, \dots emphasized that medical issues should be separated from entertainment. HKU Dean of Medicine Professor Gabriel Leung said these comments made by well-known figures had no support from the scientific and medical fields. \\
+\vspace{3mm}
+HKU released findings of a study on the effectiveness of the vaccine type for the current flu season. It found that the flu jabs were 66\% effective. The study looked into the data of 1,078 children who were admitted to hospitals between December 4 last year and January 31 this year. All the children suffered from fever and acute respiratory illness. Among the 339 confirmed with flu, only 22 had been vaccinated. Of the remaining 739 children who were unaffected by the virus, 103 had received seasonal flu vaccinations. (Major local papers)"}
+\end{frame}
+
+% 2
+\begin{frame}{Case-control study \footnote{\tiny{Statistics calculated using epiR package of R \citep{Stevenson2017}.}}}
+	\begin{table}
+	\centering
+	\begin{tabular}{ l c c c }
+	\toprule
+	& Vaccinated & Not vaccinated & Total\\
+	\midrule
+	Flu virus & 22 & 317 & 339\\
+	No flu & 103 & 636 &  739\\
+	\bottomrule
+	\end{tabular} 
+	\end{table}
+	
+	\footnotesize{
+	$ OR = \frac{(22/317)}{(103/636)} = 0.43 $ \\
+ 	\vspace{3mm}
+	$ 95\% $ CI = [0.27, 0.69];  $\chi^2 = 12.57, p < .001 $ \\
+	\vspace{3mm}
+	$ ORs < 1 $ suggests that exposure (flu vaccine) reduces outcome (risk of flu).
+	}
+\end{frame}
+
+% 3
+\begin{frame}{Threats to external validity?}
+	\begin{itemize}
+	\item Retrospective study
+	\item Was determination of who received flu vaccine based on medical records or self-report?
+	\item Data based on hospitalisations only (those with severe symptoms?) so odds ratio may not reflect wider population.
+	\item People who didn't get ill (who received and didn't receive the vaccine) weren't included.
+	\item Press release indicates study participants were children, so results cannot be generalised to adults.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{References} %[shrink=15] % to reduce font size of references; *comment out this part first time this is run* 
+	\bibliographystyle{apacite}
+	\small\bibliography{/Users/thomasklee/Documents/Bibtex/library}
+\end{frame}
+
+\end{document}
