@@ -1,0 +1,243 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Coulthard%
+\ \BBA {} Coulthard%
+}{%
+Coulthard%
+\ \BBA {} Coulthard%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+Coulthard2019}
+\APACinsertmetastar {%
+Coulthard2019}%
+\begin{APACrefauthors}%
+Coulthard, M\BPBI G.%
+\BCBT {}\ \BBA {} Coulthard, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The leaf plot: a novel way of presenting the value of
+  tests}} {{The leaf plot: a novel way of presenting the value of
+  tests}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{British Journal of General Practice}{}{}{1--2}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dollaghan%
+}{%
+Dollaghan%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Dollaghan2007a}
+\APACinsertmetastar {%
+Dollaghan2007a}%
+\begin{APACrefauthors}%
+Dollaghan, C\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle {{The handbook for evidence-based practice in communication
+  disorders}} {{The handbook for evidence-based practice in communication
+  disorders}}.
+\newblock
+\APACaddressPublisher{Baltimore, MD}{Paul H. Brookes Publishing Co.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guyatt%
+, Rennie%
+, Meade%
+\BCBL {}\ \BBA {} Cook%
+}{%
+Guyatt%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Guyatt2008d}
+\APACinsertmetastar {%
+Guyatt2008d}%
+\begin{APACrefauthors}%
+Guyatt, G.%
+, Rennie, D.%
+, Meade, M\BPBI O.%
+\BCBL {}\ \BBA {} Cook, D\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {{Users' guides to the medical literature: essentials of
+  evidence-based clinical practice}} {{Users' guides to the medical literature:
+  essentials of evidence-based clinical practice}}\ (\PrintOrdinal{2nd}\ \BEd).
+\newblock
+\APACaddressPublisher{New York}{McGraw Hill}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Haynes%
+, Sackett%
+, Guyatt%
+\BCBL {}\ \BBA {} Tugwell%
+}{%
+Haynes%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+Haynes2006}
+\APACinsertmetastar {%
+Haynes2006}%
+\begin{APACrefauthors}%
+Haynes, R\BPBI B.%
+, Sackett, D\BPBI L.%
+, Guyatt, G\BPBI H.%
+\BCBL {}\ \BBA {} Tugwell, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2006}.
+\newblock
+\APACrefbtitle {{Clinical epidemiology: how to do clinical practice research}}
+  {{Clinical epidemiology: how to do clinical practice research}}\
+  (\PrintOrdinal{3rd}\ \BEd).
+\newblock
+\APACaddressPublisher{Philadelphia}{Lippincott Williams {\&} Wilkins}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Klee%
+, Pearce%
+\BCBL {}\ \BBA {} Carson%
+}{%
+Klee%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+Klee2000}
+\APACinsertmetastar {%
+Klee2000}%
+\begin{APACrefauthors}%
+Klee, T.%
+, Pearce, K.%
+\BCBL {}\ \BBA {} Carson, D\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Improving the positive predictive value of screening
+  for developmental language disorder}} {{Improving the positive predictive
+  value of screening for developmental language disorder}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Speech, Language, and Hearing
+  Research}{43}{}{821--833}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McGrayne%
+}{%
+McGrayne%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+McGrayne2011}
+\APACinsertmetastar {%
+McGrayne2011}%
+\begin{APACrefauthors}%
+McGrayne, S\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\newblock
+\APACrefbtitle {{The theory that would not die: how Bayes' rule cracked the
+  enigma code, hunted down Russian submaries {\&} emerged triumphant from two
+  centuries of controversy}} {{The theory that would not die: how Bayes' rule
+  cracked the enigma code, hunted down Russian submaries {\&} emerged
+  triumphant from two centuries of controversy}}.
+\newblock
+\APACaddressPublisher{New Haven, CT}{Yale University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{R Core Team}%
+}{%
+{R Core Team}%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+RCoreTeam2019}
+\APACinsertmetastar {%
+RCoreTeam2019}%
+\begin{APACrefauthors}%
+{R Core Team}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {{R: A Language and Environment for Statistical Computing}.}
+  {{R: A Language and Environment for Statistical Computing}.}
+\newblock
+\APACaddressPublisher{Vienna, Austria}{R Foundation for Statistical Computing}.
+\newblock
+\begin{APACrefURL} \url{https://www.r-project.org/} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Silver%
+}{%
+Silver%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+Silver2012}
+\APACinsertmetastar {%
+Silver2012}%
+\begin{APACrefauthors}%
+Silver, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\newblock
+\APACrefbtitle {{The signal and the noise: why so many predictions fail but
+  some don't}} {{The signal and the noise: why so many predictions fail but
+  some don't}}.
+\newblock
+\APACaddressPublisher{New York}{Penguin Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Stevenson%
+}{%
+Stevenson%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Stevenson2017}
+\APACinsertmetastar {%
+Stevenson2017}%
+\begin{APACrefauthors}%
+Stevenson, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {{epiR: tools for the analysis of epidemiological data (R
+  package version 0.9-93)}.} {{epiR: tools for the analysis of epidemiological
+  data (R package version 0.9-93)}.}
+\newblock
+\begin{APACrefURL} \url{https://cran.r-project.org/package=epiR}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
